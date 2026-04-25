@@ -55,6 +55,39 @@ const resources = [
     ]
   },
   {
+    manufacturer: "TAMKO Building Products",
+    category: ["shingles", "warranty"],
+    note: "Residential shingle documents, application instructions, warranty resources, and TAMKO roofing product information.",
+    lastChecked: "2026-04-25",
+    links: [
+      ["Documents and application instructions", "https://www.tamko.com/professionals/download-gallery/documents"],
+      ["Warranty center", "https://www.tamko.com/warranty-center"],
+      ["Residential roofing shingles", "https://www.tamko.com/shinglecolors"]
+    ]
+  },
+  {
+    manufacturer: "Malarkey Roofing Products",
+    category: ["shingles", "commercial", "warranty"],
+    note: "Residential and commercial roofing documents, installation guides, technical resources, and warranty information.",
+    lastChecked: "2026-04-25",
+    links: [
+      ["Documents and resources", "https://www.malarkeyroofing.com/documents-resources/"],
+      ["Installation guides", "https://www.malarkeyroofing.com/documents-resources/?category=installation-guides&sort=DESC"],
+      ["Warranty information", "https://www.malarkeyroofing.com/warranties/"]
+    ]
+  },
+  {
+    manufacturer: "Atlas Roofing",
+    category: ["shingles", "warranty"],
+    note: "Asphalt shingle installation instructions, warranty registration, and Signature Select system resources.",
+    lastChecked: "2026-04-25",
+    links: [
+      ["Roof shingles installation instructions", "https://www.atlasroofing.com/roof-shingles-installation-instructions"],
+      ["Shingles warranty", "https://www.atlasroofing.com/shingles-warranty"],
+      ["Roof shingles", "https://www.atlasroofing.com/roof-shingles"]
+    ]
+  },
+  {
     manufacturer: "Union Corrugating",
     category: ["metal"],
     note: "Metal roofing resources and MyMetalRoof install app references.",
@@ -67,13 +100,68 @@ const resources = [
   },
   {
     manufacturer: "Cedar Shake & Shingle Bureau",
-    category: ["shingles"],
+    category: ["cedar", "shingles"],
     note: "Cedar roof installation manual and technical resources.",
     lastChecked: "2026-04-24",
     links: [
       ["Roof installation manual", "https://www.cedarbureau.org/installation/roof-installation-manual/"],
       ["Installation resources", "https://www.cedarbureau.org/installation/"],
       ["Manual images and files", "https://www.cedarbureau.org/installation/roof-installation-manual/"]
+    ]
+  },
+  {
+    manufacturer: "Brava Roof Tile",
+    category: ["cedar", "synthetic", "slate", "warranty"],
+    note: "Composite cedar shake, synthetic slate, and tile product pages with installation/application documents and warranty registration.",
+    lastChecked: "2026-04-25",
+    links: [
+      ["Synthetic cedar shake resources", "https://www.bravarooftile.com/roof-tiles/cedar-shake-roof/"],
+      ["Synthetic slate resources", "https://www.bravarooftile.com/roof-tiles/old-world-slate/"],
+      ["Warranty registration", "https://www.bravarooftile.com/homeowners/warranty-registration/"]
+    ]
+  },
+  {
+    manufacturer: "EcoStar",
+    category: ["cedar", "synthetic", "slate", "warranty"],
+    note: "Synthetic steep-slope slate and shake roofing product information, including technical performance and warranty references.",
+    lastChecked: "2026-04-25",
+    links: [
+      ["Synthetic roofing products", "https://ecostarllc.com/products/"],
+      ["Synthetic slate roof tiles", "https://ecostarllc.com/products/slate-tiles/"],
+      ["Synthetic shake roof tiles", "https://ecostarllc.com/products/shake-tiles/"]
+    ]
+  },
+  {
+    manufacturer: "Enviroshake",
+    category: ["cedar", "synthetic", "slate", "warranty"],
+    note: "Composite cedar shake, shingle, and slate alternatives with installation guides, training requirements, and lifetime warranty resources.",
+    lastChecked: "2026-04-25",
+    links: [
+      ["Installation guides and training", "https://www.enviroshake.com/installation/"],
+      ["Enviroshake product resources", "https://www.enviroshake.com/enviroshake-product/"],
+      ["Lifetime warranty", "https://www.enviroshake.com/lifetime-warranty/"]
+    ]
+  },
+  {
+    manufacturer: "CEDUR",
+    category: ["cedar", "synthetic", "warranty"],
+    note: "Synthetic cedar shake roofing resources, technical information, installation recommendations, and warranty support.",
+    lastChecked: "2026-04-25",
+    links: [
+      ["Technical information", "https://www.cedur.com/technical-information-about-our-synthetic-cedar-wood-shake-roofs"],
+      ["Product information", "https://www.cedur.com/information"],
+      ["Synthetic cedar shake roofing", "https://www.cedur.com/"]
+    ]
+  },
+  {
+    manufacturer: "DaVinci Roofscapes",
+    category: ["cedar", "synthetic", "slate", "warranty"],
+    note: "Composite slate and shake roofing resources with official installation guides and warranty references.",
+    lastChecked: "2026-04-25",
+    links: [
+      ["Slate installation guide", "https://www.davinciroofscapes.com/wp-content/uploads/2018/11/Slate-Installation-Guide.pdf"],
+      ["Shake installation guide", "https://www.davinciroofscapes.com/wp-content/uploads/2019/05/DaVinci_Shake_Installation-Guide_05-2019.pdf"],
+      ["Inspire Slate product and warranty info", "https://www.westlakeroyalbuildingproducts.com/roofing/davinci-roofscapes/inspire-slate"]
     ]
   },
   {
