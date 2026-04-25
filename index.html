@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RoofLink | Blue Tier Labs</title>
+  <meta name="description" content="A mobile-first directory of official roofing manufacturer installation links, warranty pages, technical bulletins, and field checklists.">
+  <meta property="og:title" content="RoofLink by Blue Tier Labs">
+  <meta property="og:description" content="Find official roofing manufacturer install links without bouncing around the web.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bluetierlabs.github.io/rooflink-blue-tier/">
+  <link rel="canonical" href="https://bluetierlabs.github.io/rooflink-blue-tier/">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav>
+      <strong>RoofLink</strong>
+      <span>by Blue Tier Labs</span>
+    </nav>
+    <section class="hero-grid">
+      <div>
+        <p class="eyebrow">Official links. Jobsite-first layout.</p>
+        <h1>Roofing install docs should not be a scavenger hunt.</h1>
+        <p class="lede">RoofLink is a free field directory that points crews and contractors to official manufacturer installation instructions, warranty pages, technical bulletins, and document libraries.</p>
+        <div class="actions">
+          <a class="button" href="#directory">Open directory</a>
+          <a class="button secondary" href="#checklist">Field checklist</a>
+        </div>
+      </div>
+      <aside class="status-card">
+        <span>MVP status</span>
+        <strong>Starter index</strong>
+        <p>No copied manufacturer manuals. No copied diagrams. Official-source links only.</p>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section class="notice">
+      <p><strong>Important:</strong> RoofLink is an independent link directory. Always follow current manufacturer instructions, applicable code, project specs, safety rules, and qualified professional judgment. Blue Tier Labs does not provide legal, engineering, safety, warranty, or code advice.</p>
+    </section>
+
+    <section class="tools">
+      <label for="search">Search manufacturer, product type, or document type</label>
+      <input id="search" type="search" placeholder="Try: GAF, shingle, warranty, technical documents">
+      <div class="chips" aria-label="Quick filters">
+        <button type="button" data-filter="all">All</button>
+        <button type="button" data-filter="shingles">Shingles</button>
+        <button type="button" data-filter="metal">Metal</button>
+        <button type="button" data-filter="commercial">Commercial</button>
+        <button type="button" data-filter="warranty">Warranty</button>
+      </div>
+    </section>
+
+    <section id="directory" class="directory" aria-live="polite"></section>
+
+    <section id="checklist" class="panel">
+      <p class="eyebrow">Field verification checklist</p>
+      <h2>Before install, verify the current official documents.</h2>
+      <ul class="checklist">
+        <li>Manufacturer and product line match the material on site.</li>
+        <li>Installation instruction date/version is current.</li>
+        <li>Warranty requirements are checked before work starts.</li>
+        <li>Deck, underlayment, ventilation, flashing, fastening, and weather limits are reviewed.</li>
+        <li>Local code, project specs, and safety requirements are verified separately.</li>
+        <li>Crew has a job packet or QR link to the official documents.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <p class="eyebrow">Future Pro Tools</p>
+      <h2>Crew packets, QR codes, favorites, and update reminders.</h2>
+      <p>Free RoofLink will stay an official-link directory. RoofLink Pro can add saved favorites, contractor-branded job packets, QR codes for crews, update reminders, and field notes.</p>
+    </section>
+
+    <section class="panel">
+      <p class="eyebrow">Tool guide placeholder</p>
+      <h2>Recommended field tools can come later.</h2>
+      <p>If Blue Tier adds tool links, affiliate relationships will be clearly disclosed. Tool sections will stay separate from the official manufacturer document directory.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>RoofLink is independent and not endorsed by the listed manufacturers unless explicitly stated. Manufacturer names are used only to identify official resources.</p>
+    <p>Questions or corrections: <a href="mailto:bluetierholding@gmail.com">bluetierholding@gmail.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
